@@ -180,6 +180,22 @@ body {
     color: var(--blue-text-backgrounds);
 }
 
+/*---------------Overlay-----------*/
+
+.overlay {
+    max-width: 1600px;
+    height: 600px;
+    margin-left: auto;
+    margin-right: auto;
+    background-image: url("../images/Hero-image-res.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+
+
+}
+
+
 /* --------------Hero------------ */
 
 .main {
