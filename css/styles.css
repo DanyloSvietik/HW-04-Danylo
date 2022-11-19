@@ -180,6 +180,13 @@ body {
     color: var(--blue-text-backgrounds);
 }
 
+/*--------------Header-Icons----------*/
+
+.header-icon {
+    
+}
+
+
 /*---------------Overlay-----------*/
 
 .overlay {
@@ -250,6 +257,20 @@ body {
     color: var(--hover-btn-color);
 }
 
+/*---------benefits-icons----------*/
+
+.benefits {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 270px;
+    height: 120px;
+    background-color: rgba(245, 244, 250, 1);
+    margin-bottom: 30px;
+}
+
+/* .benefits-icon {
+} */
 /*---------Преимущества-benefits----------*/
 
 
@@ -310,6 +331,8 @@ body {
     letter-spacing: 0.03em;
     color: var(--second-title-color);
 }
+
+
 
 /*------------Примеры работ---------------*/
 
