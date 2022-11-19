@@ -173,6 +173,8 @@ body {
     letter-spacing: 0.02em;
     color: var(--second-title-color);
     text-decoration: none;
+    display: flex;
+    align-items: center;
 }
 
 .header-contact:hover,
@@ -183,7 +185,8 @@ body {
 /*--------------Header-Icons----------*/
 
 .header-icon {
-    
+    margin-right: 10px;
+    fill: currentColor;
 }
 
 
