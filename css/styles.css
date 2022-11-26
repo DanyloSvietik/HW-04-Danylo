@@ -82,7 +82,6 @@ body {
     width: 1200px;
     padding-left: 15px;
     padding-right: 15px;
-    /*outline: 2px solid red;*/
 }
 
 .main-nav {
@@ -182,6 +181,17 @@ body {
     fill: currentColor;
 }
 
+.contact-link {
+    display: flex;
+    padding-top: 32px;
+    padding-bottom: 32px;
+    align-items: center;
+}
+
+.contact-link:hover,
+.contact-link:focus {
+    color: var(--blue-text-backgrounds);
+}
 
 /*---------------Overlay-----------*/
 
@@ -435,6 +445,11 @@ body {
 
 /*-----------Постійні клієнти--------*/
 
+.clients {
+    padding: 94px 0px;
+}
+
+
 .clients-list {
     display: flex;
     gap: 30px;
@@ -464,8 +479,8 @@ body {
 
 .clients-link:hover,
 .clients-link:focus {
-    color: var(--brand-color);
-    border: 1px solid var(--brand-color);
+    color: var(--blue-text-backgrounds);
+    border: 1px solid var(--blue-text-backgrounds);
 }
 
 /*----------------Footer-------------*/
@@ -473,9 +488,15 @@ body {
 .footer {
     padding-top: 60px;
     padding-bottom: 60px;
-
     background-color: var(--hero-footer-color);
 }
+
+.footer-container {
+    display: flex;
+    align-items: baseline;
+    justify-content: ;
+}
+
 
 .footer-logo {
     margin-bottom: 20px;
@@ -536,6 +557,30 @@ body {
     margin-top: 9px;
 }
 
+/*-----------Footer-social---------*/
+
+.footer-social {
+    width: 206px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.social-title {
+    width: 100%;
+    margin-top: 0;
+    text-transform: uppercase;
+    font-weight: 700;
+    color: var(--header-background-color);
+}
+
+.footer-social-link {
+    background-color: rgba(255, 255, 255, 0.1);
+}
+
+.footer-social-link>.social-team-icon {
+    fill: var(--header-background-color);
+}
 
 /*---------Portfolio ---------*/
 
